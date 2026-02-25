@@ -13,3 +13,7 @@ jobs:
     steps:
       - name: Ping Render backend
         run: curl -s https://senior-gravity-backend.onrender.com > /dev/null
+      - name: Ping chat-backend
+        run: curl -s https://turing-labs-deploy.onrender.com > /dev/null
+      - name: Ping email-backend
+        run: curl -s https://email-backend-production-1c46.up.railway.app > /dev/null       
